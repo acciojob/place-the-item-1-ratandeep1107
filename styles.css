@@ -1,2 +1,21 @@
+.holder{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.holder > div{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.one{
+    background-color: green;
 
+}
+.two{
+    background-color: red;
+}
+.three{
+    background-color: blue;
+}
 /* Your CSS Code here. */
